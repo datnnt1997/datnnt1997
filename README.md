@@ -31,6 +31,6 @@
 </p> 
 
 <p align = "center">
- <img src="https://activity-graph.herokuapp.com/graph?username=datnnt1997&theme=default">
+ <img src="https://activity-graph.herokuapp.com/graph?username=datnnt1997&theme=minimal">
 </p>
 
