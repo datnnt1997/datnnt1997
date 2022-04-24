@@ -14,4 +14,14 @@
 <img src="images/pngs/git.png" width="50" style="padding-left: 10px">
 </p>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=datnnt1997&show_icons=true&theme=default)
+
+<h2 align="center">
+  My Github Stats<img src="./images/gifs/star.gif" width="50">
+</h2>
+ 
+<br>
+
+<p align = "center">
+  <img  src = "https://github-readme-stats.vercel.app/api?username=datnnt1997&show_icons=true&theme=default&line_height=27">
+  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=datnnt1997&&theme=default">
+</p>
