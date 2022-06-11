@@ -1,4 +1,4 @@
-### <img src="./images/gifs/hello.gif" width="50" /> Hi there, I'm Dat Ngo!
+### <img src="./images/gifs/hello.gif" width="50" /> Hi there, I'm 🧑‍💻**Trong-Dat Ngo**!
 
 <h2 align="center">Technology Stack <img src="./images/gifs/tech.gif" width="50"></h2>
 <p align="center">
