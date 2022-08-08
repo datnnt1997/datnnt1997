@@ -1,5 +1,7 @@
 ### <img src="./images/gifs/hello.gif" width="50" /> Hi there, I'm 🧑‍💻**Trong-Dat Ngo**!
-
+<p align = "center">
+ <img  src="https://github-readme-streak-stats.herokuapp.com/?user=datnnt1997&show_icons=true&locale=en&layout=compact&theme=tokyonight_duo&line_height=0" />
+</p>
 <h2 align="center">Technology Stack <img src="./images/gifs/tech.gif" width="50"></h2>
 <p align="center">
 <img src="images/pngs/python.png" width="55" style="padding-left: 10px">
@@ -20,11 +22,9 @@
 </h2>
  
 <br>
-<p align = "center">
- <img  src="https://github-readme-streak-stats.herokuapp.com/?user=datnnt1997&show_icons=true&locale=en&layout=compact&theme=tokyonight_duo&line_height=0" />
-</p> 
 
 <p align = "center">
-  <img  src = "https://github-readme-stats.vercel.app/api?username=datnnt1997&show_icons=true&theme=default&line_height=27">
-  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=datnnt1997&theme=default&hide=html,css,JavaScript,Ruby,java,shell,CoffeeScript">
+  <img  src = "https://github-readme-stats.vercel.app/api?username=datnnt1997&show_icons=true&theme=tokyonight&line_height=27">
+  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=datnnt1997&theme=tokyonight&hide=html,css,JavaScript,Ruby,java,shell,CoffeeScript">
 </p>
+
