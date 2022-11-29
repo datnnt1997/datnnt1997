@@ -2,23 +2,23 @@
 <p align = "center">
  <img  src="https://github-readme-streak-stats.herokuapp.com/?user=datnnt1997&show_icons=true&locale=en&layout=compact&theme=tokyonight_duo&line_height=0" />
 </p>
-<h2 align="center">Technology Stack <img src="./images/gifs/tech.gif" width="50"></h2>
+<h2 align="center">Technology Stack <img src="statics/images/gifs/tech.gif" width="50"></h2>
 <p align="center">
-<img src="images/pngs/python.png" width="55" style="padding-left: 10px">
-<img src="images/pngs/pytorch.png" width="45" style="padding-left: 10px">
-<img src="images/pngs/django.png" width="50" style="padding-left: 10px">
-<img src="images/pngs/fastapi.svg" width="50" style="padding-left: 10px">
-<img src="images/pngs/flask.png" width="50" style="padding-left: 10px">
-<img src="images/pngs/kafka.png" width="50" style="padding-left: 10px">
-<img src="images/pngs/el.png" width="50" style="padding-left: 10px">
-<img src="images/pngs/docker.png" width="60" style="padding-left: 10px">
-<img src="images/pngs/jenkins.png" width="40" style="padding-left: 10px">
-<img src="images/pngs/git.png" width="50" style="padding-left: 10px">
+<img src="statics/images/pngs/python.png" width="55" style="padding-left: 10px">
+<img src="statics/images/pngs/pytorch.png" width="45" style="padding-left: 10px">
+<img src="statics/images/pngs/django.png" width="50" style="padding-left: 10px">
+<img src="statics/images/pngs/fastapi.svg" width="50" style="padding-left: 10px">
+<img src="statics/images/pngs/flask.png" width="50" style="padding-left: 10px">
+<img src="statics/images/pngs/kafka.png" width="50" style="padding-left: 10px">
+<img src="statics/images/pngs/el.png" width="50" style="padding-left: 10px">
+<img src="statics/images/pngs/docker.png" width="60" style="padding-left: 10px">
+<img src="statics/images/pngs/jenkins.png" width="40" style="padding-left: 10px">
+<img src="statics/images/pngs/git.png" width="50" style="padding-left: 10px">
 </p>
 
 
 <h2 align="center">
-  My Github Stats<img src="./images/gifs/star.gif" width="50">
+  My Github Stats<img src="statics/images/gifs/star.gif" width="50">
 </h2>
  
 <br>
