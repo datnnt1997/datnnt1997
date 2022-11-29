@@ -125,9 +125,9 @@ a:active {
  * ## typography
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Heebo", sans-serif;
-  font-weight: 500;
+  font-family: "Playfair Display", serif;
   font-style: normal;
+  font-weight: bold;
   color: #000000;
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
@@ -173,11 +173,13 @@ h1, .h1 {
 h2, .h2 {
   font-size: 3rem;
   line-height: 1.2;
+  margin-top: 0px
 }
 
 h3, .h3 {
   font-size: 2.4rem;
   line-height: 1.167;
+  margin-top: 0px
 }
 
 h4, .h4 {
@@ -188,6 +190,9 @@ h4, .h4 {
 h5, .h5 {
   font-size: 1.8rem;
   line-height: 1.333;
+  margin-top: 0px;
+  font-style: italic;
+  font-weight: normal;
 }
 
 h6, .h6 {
@@ -204,7 +209,7 @@ p img {
 p.lead {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 300;
-  font-size: 2.4rem;
+  font-size: 1.9rem;
   line-height: 1.833;
   margin-bottom: 3.6rem;
   color: #000000;
@@ -250,22 +255,22 @@ small {
 }
 
 blockquote {
-  margin: 4rem 0;
-  padding: 4rem 4rem;
+  margin: 2rem 0;
+  padding: 0rem 2rem;
   border-left: 4px solid black;
   position: relative;
 }
 
 @media screen and (max-width:600px) {
   blockquote {
-    padding: 3.2rem 3.2rem;
+    padding: 0rem 2rem;
   }
 
 }
 
 @media screen and (max-width:400px) {
   blockquote {
-    padding: 2.8rem 2.8rem;
+    padding: 0rem 2rem;
   }
 
 }
@@ -2496,28 +2501,16 @@ input::-moz-focus-inner {
   background-image: url(../images/icons/social/icon-facebook.svg);
 }
 
-.header__social .ss-twitter a::after {
-  background-image: url(../images/icons/social/icon-twitter.svg);
+.header__social .ss-github a::after {
+  background-image: url(../images/icons/social/icon-github.png);
 }
 
-.header__social .ss-dribbble a::after {
-  background-image: url(../images/icons/social/icon-dribbble.svg);
+.header__social .ss-linkedin a::after {
+  background-image: url(../images/icons/social/icon-linkedin.png);
 }
 
-.header__social .ss-behance a::after {
-  background-image: url(../images/icons/social/icon-behance.svg);
-}
-
-.header__social .ss-instagram a::after {
-  background-image: url(../images/icons/social/icon-instagram.svg);
-}
-
-.header__social .ss-pinterest a::after {
-  background-image: url(../images/icons/social/icon-pinterest.svg);
-}
-
-.header__social .ss-rss a::after {
-  background-image: url(../images/icons/social/icon-rss.svg);
+.header__social .ss-home a::after {
+  background-image: url(../images/icons/social/icon-home.png);
 }
 
 /* -------------------------------------------------------------------
@@ -2777,8 +2770,8 @@ body.search-is-visible {
   }
 
   .header__logo img {
-    width: 100%;
-    height: 100%;
+    width: 125px;
+    height: 50px;
   }
 
   .header__nav-wrap {
