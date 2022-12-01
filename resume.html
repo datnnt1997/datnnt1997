@@ -13,8 +13,6 @@
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS
-    ================================================== -->
     <link rel="stylesheet" href="statics/css/base.css">
     <link rel="stylesheet" href="statics/css/vendor.css">
     <link rel="stylesheet" href="statics/css/main.css">
@@ -30,7 +28,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="statics/images/icons/favicon.png">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <div id="preloader">
         <div id="loader" class="dots-fade">
             <div></div>
@@ -38,7 +36,9 @@
             <div></div>
         </div>
     </div>
-    <div id="menu"></div>
+
+    <header id="menu"></header>
+
     <div class="s-content content">
         <main class="row s-styles">
              <section id="styles" class="column large-full">
@@ -231,12 +231,14 @@
              </section>
         </main>
     </div>
+
     <footer id="footer"></footer>
 
     <!-- Java Script ================================================== -->
     <script src="statics/js/jquery-3.2.1.min.js"></script>
     <script src="statics/js/plugins.js"></script>
     <script src="statics/js/main.js"></script>
+
     <script>
         $(function(){ $("#menu").load("components/menu.html") });
         $(function(){ $("#footer").load("components/footer.html") });
