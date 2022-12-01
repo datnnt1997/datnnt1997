@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="statics/css/base.css">
     <link rel="stylesheet" href="statics/css/vendor.css">
     <link rel="stylesheet" href="statics/css/main.css">
+    <link rel="stylesheet" href="statics/css/style.css">
+    <link rel="stylesheet" href="statics/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="statics/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="statics/css/animate.css">
 
     <!-- Java Script
     ================================================== -->
@@ -30,18 +34,71 @@
     <link rel="icon" type="image/png" sizes="16x16" href="statics/images/icons/favicon.png">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
     <header id="menu"></header>
-    <footer id="footer"></footer>
+    <section id="home-section" class="hero">
+        <div class="home-slider owl-carousel">
+            <div class="slider-item ">
+                <div class="overlay"></div>
+                <div class="container" style="margin-right: 5%;">
+                    <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+                        <div class="one-third js-fullheight order-md-last img" style="background-image:url(statics/images/banner/2.png);">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                            <div class="text" style="margin-left: 10%">
+                                <span class="subheading">Hello!</span>
+                                <h1 class="mb-4 mt-3">I'm <span>Trọng Đắt Ngô</span></h1>
+                                <h2 class="mb-4">A Software Developer / AI Engineer</h2>
+                                <p>
+                                    <a href="resume.html" class="btn btn-primary py-3 px-4" style="text-align: center; height: auto">Resume</a>
+                                    <a href="blogs.html" class="btn btn-white btn-outline-white py-3 px-4" style="text-align: center; height: auto">My Blogs</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-item ">
+                <div class="overlay"></div>
+                <div class="container" style="margin-right: 5%;">
+                    <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+                        <div class="one-third js-fullheight order-md-last img" style="background-image:url(statics/images/banner/3.png);">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                            <div class="text" style="margin-left: 10%">
+                                <span class="subheading">Hello!</span>
+                                <h1 class="mb-4 mt-3">I'm a <span>AI Engineer</span> based in Ho Chi Minh, Viet Nam</h1>
+                                <p>
+                                    <a href="resume.html" class="btn btn-primary py-3 px-4" style="text-align: center; height: auto">Resume</a>
+                                    <a href="blogs.html" class="btn btn-white btn-outline-white py-3 px-4" style="text-align: center; height: auto">My Blogs</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Java Script ================================================== -->
     <script src="statics/js/jquery-3.2.1.min.js"></script>
     <script src="statics/js/plugins.js"></script>
     <script src="statics/js/main.js"></script>
-        <!-- Java Script ================================================== -->
-    <script src="statics/js/jquery-3.2.1.min.js"></script>
-    <script src="statics/js/plugins.js"></script>
-    <script src="statics/js/main.js"></script>
+
+    <script src="statics/js/jquery.waypoints.min.js"></script>
+    <script src="statics/js/owl.carousel.min.js"></script>
+    <script src="statics/js/aos.js"></script>
+    <script src="statics/js/banner.js"></script>
 
     <script>
         $(function(){ $("#menu").load("components/menu.html") });
