@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Trong Đắt</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="statics/css/base.css">
+    <link rel="stylesheet" href="statics/css/vendor.css">
+    <link rel="stylesheet" href="statics/css/main.css">
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="statics/js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="statics/images/icons/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="statics/images/icons/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="statics/images/icons/favicon.png">
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+</head>
+
+<body class="ss-bg-white">
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div id="top" class="s-wrap site-wrapper">
+        <header id="menu"></header>
+        <!-- site content
+        ================================================== -->
+        <div class="s-content content">
+            <main class="row content__page">
+                <article class="column large-full entry format-standard">
+                    <div class="media-wrap entry__media">
+                        <div class="entry__post-thumb">
+                            <img src="statics/images/thumbs/single/standard/standard-1000.jpg"
+                                 srcset="statics/images/thumbs/single/standard/standard-2000.jpg 2000w,
+                                         statics/images/thumbs/single/standard/standard-1000.jpg 1000w,
+                                         statics/images/thumbs/single/standard/standard-500.jpg 500w" sizes="(max-width: 2000px) 100vw, 2000px" alt="">
+                        </div>
+                    </div>
+                    <div class="content__page-header entry__header">
+                        <h1 class="display-1 entry__title">
+                        HOÁN VỊ - TỔ HỢP
+                        </h1>
+                        <ul class="entry__header-meta">
+                            <li class="author">By <a href="#0">Trọng Đắt</a></li>
+                            <li class="date">December 2, 2022</li>
+<!--                            <li class="cat-links">-->
+<!--                                <a href="#0">Marketing</a><a href="#0">Management</a>-->
+<!--                            </li>-->
+                        </ul>
+                    </div> <!-- end entry__header -->
+
+                    <div class="entry__content">
+                        <h2>Lý Thuyết</h2>
+
+                        <h3>Hoán Vị</h3>
+                        <p>
+                            Một chỉnh hợp là một cách sắp xếp \(k\) phần tử từ \(n\) phần tử, không quan trọng thứ tự.
+                            Số lượng cách sắp xếp như vậy là \(P_{n}^{k}\), được định nghĩa như sau:
+                        </p>
+                        <p>
+                            $$P_{n}^{k} = \frac{n! }{(n - k)!}$$
+                        </p>
+
+                        <h3>Tổ Hợp</h3>
+                        <p>
+                            Một tổ hợp là một cách sắp xếp \(k\) phần tử từ \(n\) phần tử, không quan trọng thứ tự.
+                            Số lượng cách sắp xếp như vậy là \(C_{n}^{k}\), được định nghĩa như sau:
+                        </p>
+                        <p>
+                            $$C_{n}^{k} = \frac{P_{n}^{k}}{k!} = \frac{n!}{k! (n - k)!} $$
+                        </p>
+
+                        <h2>Bài Tập</h2>
+                        <ul>
+                            <li class="question">
+                                <strong style="color: blue">Câu 1:</strong> Từ các số 0,1,2,3,4,5 có thể lập được bao nhiêu số tự nhiên mà
+                                mỗi số có 6 chữ số khác nhau và chữ số 2 đứng cạnh chữ số 3?
+                                <p style="margin: auto;">
+                                    <button class="answer" onclick="this.style.color = 'green';"><strong>A.</strong>192</button>
+                                    <button class="answer" onclick="this.style.color = 'red';"><strong>B.</strong>202</button>
+                                    <button class="answer"onclick="this.style.color = 'red';"><strong>C.</strong>211</button>
+                                    <button class="answer"onclick="this.style.color = 'red';"><strong>D.</strong>180</button>
+                                </p>
+
+                                <a class="collapsible">Hướng dẫn giải</a>
+                                <div style="display: none">
+                                   <blockquote class="ans_content">
+                                       <h5>Đáp án <strong style="color: green">A</strong></h5>
+                                        <p>
+                                            Đặt \(x = 23\), số cần tìm sẽ có dạng \(y= abcde\). Theo đề bài ta có:
+                                       </p>
+                                       <p>
+                                           <strong><i>(1)</i></strong> \(a, b, c, d, e\) khác nhau và thuộc
+                                           tập \(\{0, 1, x, 4, 5\}\)
+                                       </p>
+                                       <p>
+                                           <strong><i>(2)</i></strong>  \( a \neq 0\) (số cần tìm có 6 chữ số);
+                                       </p>
+                                       <p>
+                                           <strong><i>(3)</i></strong> Khi hoán đổi vị trí \(2\) và \(3\) trong \(y\)
+                                           ta được hai số khác nhau (Ví dụ: \(234560\) và \(324569\)).
+                                       </p>
+                                       <p>
+                                           \(\Rightarrow\) Từ <strong><i>(1)</i></strong>, <strong><i>(2)</i></strong> và <strong><i>(3)</i></strong>  ta có tổng số tự nhiên có thể có của \(y\) là: $$(P_{5} - P_{4}) \times 2 =( 120 - 24 ) \times 2 = 192$$
+                                       </p>
+                                    </blockquote>
+                                </div>
+                            </li>
+                            <li class="question">
+                                <strong style="color: blue">Câu 2:</strong> Có 3 học sinh nữ và 2 học sinh nam. Ta muốn
+                                sắp xếp vào một bàn dài có 5 ghế ngồi. Hỏi có bao nhiêu cách sắp xếp để 3 học sinh nữ
+                                ngồi kế nhau?
+                                <p style="margin: auto;">
+                                    <button class="answer" onclick="this.style.color = 'red';"><strong>A.</strong>34</button>
+                                    <button class="answer" onclick="this.style.color = 'red';"><strong>B.</strong>46</button>
+                                    <button class="answer" onclick="this.style.color = 'green';"><strong>C.</strong>36</button>
+                                    <button class="answer" onclick="this.style.color = 'red';"><strong>D.</strong>26</button>
+                                </p>
+
+                                <a class="collapsible">Hướng dẫn giải</a>
+                                <div style="display: none">
+                                   <blockquote class="ans_content">
+                                       <h5>Đáp án <strong style="color: green">C</strong></h5>
+                                        <p>
+                                            Đặt \(x\) là vị trí ngồi của 3 bạn nữ và \(n1\), \(n2\) tương ứng với 2 bạn
+                                            nam. Cách sắp xếp cần tìm có dạng \(y= abc\). Trong đó \(a, b, c\) khác
+                                            nhau và thuộc tập \(\{x, n1, n2\}\).
+                                       </p>
+                                       <p>
+                                            <strong><i>(1)</i></strong> Ta có số cách sắp xếp có thể có của \(y = P_{3} = 3! = 6\)
+                                       </p>
+                                       <p>
+                                           <strong><i>(2)</i></strong> Tương tự ta có cách sắp xếp 3 bạn nữ trong \(x = P_{3} = 3! = 6\)
+                                       </p>
+                                       <p>
+                                           \(\Rightarrow\) Từ <strong><i>(1)</i></strong> và <strong><i>(2)</i></strong> ta có tổng số cá sắp xếp có thể có là: \(6 \times 6 = 36\)
+                                       </p>
+                                    </blockquote>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <p class="entry__tags">
+                            <span>Post Tags</span>
+                            <span class="entry__tag-list">
+                                <a href="#0">Giai thừa</a>
+                                <a href="#0">Tổ hợp</a>
+                                <a href="#0">Chính hợp</a>
+                                <a href="#0">Toán</a>
+                            </span>
+
+                        </p>
+                    </div> <!-- end entry content -->
+
+                    <div class="entry__pagenav">
+                        <div class="entry__nav">
+                            <div class="entry__prev">
+                                <a href="#0" rel="prev">
+                                    <span>Previous Post</span>
+                                    Tips on Minimalist Design
+                                </a>
+                            </div>
+                            <div class="entry__next">
+                                <a href="#0" rel="next">
+                                    <span>Next Post</span>
+                                    Less Is More
+                                </a>
+                            </div>
+                        </div>
+                    </div> <!-- end entry__pagenav -->
+
+                    <div class="entry__related">
+                        <h3 class="h2">Related Articles</h3>
+
+                        <ul class="related">
+                            <li class="related__item">
+                                <a href="single-standard.html" class="related__link">
+                                    <img src="statics/images/thumbs/masonry/walk-600.jpg" alt="">
+                                </a>
+                                <h5 class="related__post-title">Using Repetition and Patterns in Photography.</h5>
+                            </li>
+                            <li class="related__item">
+                                <a href="single-standard.html" class="related__link">
+                                    <img src="statics/images/thumbs/masonry/dew-600.jpg" alt="">
+                                </a>
+                                <h5 class="related__post-title">Health Benefits Of Morning Dew.</h5>
+                            </li>
+                            <li class="related__item">
+                                <a href="single-standard.html" class="related__link">
+                                    <img src="statics/images/thumbs/masonry/rucksack-600.jpg" alt="">
+                                </a>
+                                <h5 class="related__post-title">The Art Of Visual Storytelling.</h5>
+                            </li>
+                        </ul>
+                    </div> <!-- end entry related -->
+
+                </article> <!-- end column large-full entry-->
+            </main>
+
+        </div> <!-- end s-content -->
+
+        <footer id="footer"></footer>
+    </div>
+    <!-- Java Script ================================================== -->
+    <script src="statics/js/jquery-3.2.1.min.js"></script>
+    <script src="statics/js/plugins.js"></script>
+    <script src="statics/js/main.js"></script>
+
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <script>
+        $(function(){ $("#menu").load("../components/menu.html") });
+        $(function(){ $("#footer").load("../components/footer.html") });
+    </script>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+    </script>
+
+</body>

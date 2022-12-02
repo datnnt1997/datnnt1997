@@ -3616,3 +3616,44 @@ body.search-is-visible {
 /*  background: #000000;*/
 /*}*/
 /*# sourceMappingURL=main.css.map */
+
+.answer {
+  border: none;
+  border-radius:10px;
+  height: 2rem;
+  line-height: 0.5rem;
+  background-color: unset;
+  font-weight: normal;
+  font-size: 1.5rem;
+  display: inline;
+}
+button.answer:hover{
+  background-color: lightgrey;
+  transition: 0.4s;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: unset;
+  color: blue;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.9rem;
+  text-decoration: underline;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  color: green;
+}
+
+blockquote.ans_content p{
+  font-size: 1.8rem;
+  margin-bottom: 0.9rem
+}
+
+.question {
+  margin-bottom: 2.0rem
+}
