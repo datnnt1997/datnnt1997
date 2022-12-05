@@ -79,22 +79,58 @@
                         <p>
                             Trong một cuộc đua heo ở Cần Thơ, bạn được ông chủ ở đó gạ gẫm làm một kèo dự đoán thứ tự về đích
                             của 3 chú heo tham dự trận đưa sắp diễn ra. Do mới đến, nên bạn không có thông tin về
-                            tiền sử thi đấu của các "vận động viên" này, và ông chủ cũng khẳn định không có tình
+                            tiền sử thi đấu của các "vận động viên" này, và ông chủ cũng khẳng định không có tình
                             huống đồng hạng xảy ra. Bạn phân vân, liệu mình có nên tham gia, và khả năng chiến thắng của mình thế nào?
                         </p>
 
                         <p>
                             Một cách thủ công, bạn loay hoay một buổi để liệt kê tất cả các trường hợp có thể xảy ra
-                            trên giấy và tính xác suất chiến thắng của mình. Sau một lúc, bạn liệt kê được 6 khả năng có
+                            trên giấy và tính xác suất chiến thắng của mình. Sau một lúc, bạn liệt kê được 6 trường hợp có
                             thể xảy ra và xác suất 1/6 = 16.7%. Đây có lẽ không phải là một "kèo thơm" để tham gia.
+                        </p>
+                        <p>
+                            <img src="statics/images/blog1_00.png" style="width: 75%; margin: auto;  display: block;"/>
+                        </p>
+                        <p>
+                            Nhưng có một vấn đề quan tâm ở đây, chỉ với 3 chú heo, bạn đã mất khá nhiều thời gian để đưa
+                            ra quyết định. Bạn tự hỏi, có cách nào để tính được trực tiếp số lượng trường hợp có thể xảy
+                            ra một cách nhanh chóng mà không cần phải ngồi liệt kê như vầy?
                         </p>
 
                         <p>
-                            Nhưng có một vấn đề quan tâm ở đây, chỉ với 3 chú heo, bạn đã mất khá nhiều thời gian để đưa
-                            ra quyết định. Bạn tự hỏi, có cách nào để tính được số lượng trường hợp có thể xảy ra một cách
-                            nhanh hơn?
+                            Hãy thử xem xét kỹ hơn từng thứ tự về đích của 3 chú heo có thể xảy ra tại cuộc đua và xem
+                            liệu có một khuôn mẫu nào ở đây không?
                         </p>
 
+                        <p>
+                            <img src="statics/images/blog1_01.png" />
+                        </p>
+                        <p>
+                            Có thể thấy, ta có 3 lựa chọn cho vị trí hạng nhất, và với mỗi lựa chọn đó ta lại có 2 lựa
+                            chọn vị trí hạng 2 và tương ứng là chỉ có 1 lựa chọn duy nhất cho vị trí hạng 3. Nói cách
+                            khác, số lựa chọn ta có thể có cho 3 vị trí chiến thắng là:
+                            $$\mathbf{3 \times 2 \times 1 = 6}$$
+                            Như vậy ta đã trực tiếp tính được số lượng kết quả có thể xảy ra của cuộc đua 3 chú heo mà
+                            không cần phải liệt kê tất cả trường hợp. Giờ thì tổng quát hơn tí, nếu ta tăng số lượng "vận
+                            động viên" lên thành n, thì kết quả sẽ như thế nào:
+                            $$\mathbf{n \times (n-1) \times (n-2) \times ... \times 3 \times 2 \times 1}$$
+                        </p>
+                        <p>
+                            Tuyệt vời! Với việc áp dụng cách tính trên, bạn có thể dễ dàng trực tiếp tính được số lượng
+                            cách sắp xếp của \(n\) đội tượng riêng biệt bất kỳ nào mà không cần phải liệt kê tất chúng ra.
+                            Cách tính như trên được gọi là <strong>giai thừa</strong> (factorial) của một số. Trong toán
+                            học, giai thừa được ký hiệu là đấu chấm than <strong>!</strong>. Ví dụ, giai thừa của \(3\) được
+                            viết là \(3!\) và \(n!\) là ký hiệu cho giai thừa của \(n\).
+                        </p>
+                        <p>
+                            Ký hiệu giai thừa được giới thiệu lần đầu tiên vào năm 1808 bởi
+                            <a href="https://vi.wikipedia.org/wiki/Christian_Kramp">Christian Kramp</a>, sau khi thấy quá dài
+                                dòng khi phải sử dụng cách viết \(\mathbf{1 \times 2 \times 3 \times 4 \times ... }\) trong các định lí
+                                hay công thức toán học. Kí hiệu \(n!\) là một cách viết ngăn gọn mang ý nghĩa "lấy tất
+                                cả các số tự nhiên từ n đến 1 và nhân  chúng lại với nhau". Cụ thể:
+                              $$\mathbf{n! = n \times (n-1) \times (n-2) \times ... \times 3 \times 2 \times 1}$$
+
+                        </p>
                         <h3>Hoán Vị</h3>
                         <p>
                             Một chỉnh hợp là một cách sắp xếp \(k\) phần tử từ \(n\) phần tử, không quan trọng thứ tự.
@@ -113,6 +149,8 @@
                             $$C_{n}^{k} = \frac{P_{n}^{k}}{k!} = \frac{n!}{k! (n - k)!} $$
                         </p>
 
+
+
                         <h2>Bài Tập</h2>
                         <ul>
                             <li class="question">
@@ -121,8 +159,8 @@
                                 <p style="margin: auto;">
                                     <button class="answer" onclick="this.style.color = 'green';"><strong>A.</strong>192</button>
                                     <button class="answer" onclick="this.style.color = 'red';"><strong>B.</strong>202</button>
-                                    <button class="answer"onclick="this.style.color = 'red';"><strong>C.</strong>211</button>
-                                    <button class="answer"onclick="this.style.color = 'red';"><strong>D.</strong>180</button>
+                                    <button class="answer" onclick="this.style.color = 'red';"><strong>C.</strong>211</button>
+                                    <button class="answer" onclick="this.style.color = 'red';"><strong>D.</strong>180</button>
                                 </p>
 
                                 <a class="collapsible">Hướng dẫn giải</a>
