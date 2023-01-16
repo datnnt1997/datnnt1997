@@ -16,7 +16,7 @@
 <img src="statics/images/pngs/git.png" width="50" style="padding-left: 10px">
 </p>
 
-
+<!-- 
 <h2 align="center">
   My Github Stats<img src="statics/images/gifs/star.gif" width="50">
 </h2>
@@ -26,5 +26,5 @@
 <p align = "center">
   <img  src = "https://github-readme-stats.vercel.app/api?username=datnnt1997&show_icons=true&theme=tokyonight&line_height=27">
   <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=datnnt1997&theme=tokyonight&hide=html,css,JavaScript,Ruby,java,shell,CoffeeScript">
-</p>
+</p> -->
 
